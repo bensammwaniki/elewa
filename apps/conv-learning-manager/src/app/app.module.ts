@@ -33,6 +33,7 @@ import { AppRoutingModule } from './app.routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { HttpClientModule } from '@angular/common/http';
 import {MatCardModule} from "@angular/material/card";
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 
 @NgModule({
   declarations: [AppComponent],
@@ -56,7 +57,7 @@ import {MatCardModule} from "@angular/material/card";
     // UserNavModule,
     MatCardModule,
     MatProgressBarModule,
-
+    FontAwesomeModule,
     // AppConfigModule.forRoot(),
 
     // DataModule.forRoot(),
