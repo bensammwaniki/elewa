@@ -32,6 +32,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { HttpClientModule } from '@angular/common/http';
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [AppComponent],
@@ -53,7 +54,7 @@ import { HttpClientModule } from '@angular/common/http';
     FirebaseConfigurationModule.forRoot(!environment.production, environment.useEmulators),
     MultiLangModule.forRoot(true),
     // UserNavModule,
-
+    MatCardModule,
     MatProgressBarModule,
 
     // AppConfigModule.forRoot(),

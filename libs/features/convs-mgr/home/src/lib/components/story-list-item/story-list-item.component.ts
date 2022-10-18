@@ -5,6 +5,7 @@ import { Router }    from '@angular/router';
 
 import { Story } from '@app/model/convs-mgr/stories/main';
 import {faEllipsisV } from '@fortawesome/free-solid-svg-icons'
+
 @Component({
   selector: 'convl-story-list-item',
   templateUrl: './story-list-item.component.html',
